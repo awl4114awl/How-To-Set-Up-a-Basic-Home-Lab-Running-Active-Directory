@@ -140,6 +140,7 @@ By the end of this tutorial, you will have built a basic Windows networking envi
 ---
 
     Download Windows 10 ISO, it will download as MediaCreationTool_22H2:
+<p align="center">
 <br/>
 <img src="https://i.imgur.com/7ieZF9O.jpeg" height="80%" width="80%" alt="AD"/>
 <br/>
@@ -148,6 +149,7 @@ By the end of this tutorial, you will have built a basic Windows networking envi
 ---
 
     Download Windows Server 2019:
+<p align="center">
 <br/>
 <img src="https://i.imgur.com/ozCzxqI.jpeg" height="80%" width="80%" alt="AD"/>
 <br/>
@@ -156,6 +158,7 @@ By the end of this tutorial, you will have built a basic Windows networking envi
 ---
 
     Configure Server 2019 virtual machine, we'll call it "DC" for Domain Controller -- nice and easy to remember:
+<p align="center">
 <br/>
 <img src="https://i.imgur.com/gkwfHMJ.jpeg" height="80%" width="80%" alt="AD"/>
 <br/>
@@ -174,6 +177,7 @@ By the end of this tutorial, you will have built a basic Windows networking envi
 
     Configure additional settings:
     - Remember when configuring network settings, we're creating our domain controller so we want two NICs. One that's dedicated to the internet that runs NAT, and the second is dedicated to the internal VirtualBox network:
+<p align="center">
 <br/>
 <img src="https://i.imgur.com/HVov5hn.jpeg" height="80%" width="80%" alt="AD"/>
 <br/>
@@ -188,6 +192,7 @@ By the end of this tutorial, you will have built a basic Windows networking envi
 ---
 
     Start the "DC" VM, and this is where we'll select the Server 2019 ISO. For me, I had to select it and reboot:
+<p align="center">
 <br/>
 <img src="https://i.imgur.com/8yQzQnJ.jpeg" height="80%" width="80%" alt="AD"/>
 <br/>
@@ -196,6 +201,7 @@ By the end of this tutorial, you will have built a basic Windows networking envi
 ---
 
     It may take a while to reach this screen due to loading time, but once you've reached it, we'll just install by clicking next, and then Install Now:
+<p align="center">
 <br/>
 <img src="https://i.imgur.com/Mx6Fkio.jpeg" height="80%" width="80%" alt="AD"/>
 <br/>
@@ -207,6 +213,7 @@ By the end of this tutorial, you will have built a basic Windows networking envi
 ---
 
     Select 'Windows Server 2019 Standard Evaluation (Desktop Experience)':
+<p align="center">
 <br/>
 <img src="https://i.imgur.com/5wVf2s4.jpeg" height="80%" width="80%" alt="AD"/>
 <br/>
@@ -215,7 +222,8 @@ By the end of this tutorial, you will have built a basic Windows networking envi
 ---
 
     After accepting license terms, select which type of installation you want:
-- We're going to format the hard drive and install it from scratch so select "Custom: Install Windows only (advanced)":
+    - We're going to format the hard drive and install it from scratch so select "Custom: Install Windows only (advanced)":
+<p align="center">
 <br/>
 <img src="https://i.imgur.com/AxtXViW.jpeg" height="80%" width="80%" alt="AD"/>
 <br/>
@@ -224,6 +232,7 @@ By the end of this tutorial, you will have built a basic Windows networking envi
 ---
 
     Select default location it should read something like "Drive 0 Unallocated Space" and click next:
+<p align="center">
 <br/>
 <img src="https://i.imgur.com/OhiiiG8.jpeg" height="80%" width="80%" alt="AD"/>
 <br/>
@@ -232,6 +241,7 @@ By the end of this tutorial, you will have built a basic Windows networking envi
 ---
 
     The next part will take a while, the server is going to restart several times as well:
+<p align="center">
 <br/>
 <img src="https://i.imgur.com/ZYxMDs8.jpeg" height="80%" width="80%" alt="AD"/>
 <br/>
@@ -241,6 +251,7 @@ By the end of this tutorial, you will have built a basic Windows networking envi
 
     Once the Server 2019 installation commences you'll be met with the prompt for setting up the default admin account:
     - We will just use Password1 as the password. It will be the password for everything in this lab:
+<p align="center">
 <br/>
 <img src="https://i.imgur.com/UPXUNmN.jpeg" height="80%" width="80%" alt="AD"/>
 <br/>
@@ -249,6 +260,7 @@ By the end of this tutorial, you will have built a basic Windows networking envi
 ---
 
     We now have our Server 2019 VM fully installed!:
+<p align="center">
 <br/>
 <img src="https://i.imgur.com/21KMc5w.jpeg" height="80%" width="80%" alt="AD"/>
 <br/>
@@ -258,6 +270,7 @@ By the end of this tutorial, you will have built a basic Windows networking envi
 
     Let's log in and install VM guest editions:
     - VM guest additions kind of just gives a better experience when using the VM:
+<p align="center">
 <br/>
 <img src="https://i.imgur.com/WYK8bYp.jpeg" height="80%" width="80%" alt="AD"/>
 <br/>
@@ -267,6 +280,7 @@ By the end of this tutorial, you will have built a basic Windows networking envi
 
     It will appear in File Explorer as a drive, we're just going to click into it and run the amd64 version:
     - Select 'Next', 'Next', 'Install', and then let it run until it's finished:
+<p align="center">
 <br/>
 <img src="https://i.imgur.com/TmHSV8d.jpeg" height="80%" width="80%" alt="AD"/>
 <br/>
@@ -275,6 +289,7 @@ By the end of this tutorial, you will have built a basic Windows networking envi
 ---
 
     Once that's finished installing, don't select 'Reboot now' go ahead and select 'I want to manually reboot later':
+<p align="center">
 <br/>
 <img src="https://i.imgur.com/joeqQeT.jpeg" height="80%" width="80%" alt="AD"/>
 <br/>
@@ -283,6 +298,7 @@ By the end of this tutorial, you will have built a basic Windows networking envi
 ---
 
     We're just going to shut down the VM ourselves:
+<p align="center">
 <br/>
 <img src="https://i.imgur.com/sdztpQF.jpeg" height="80%" width="80%" alt="AD"/>
 <br/>
@@ -292,6 +308,7 @@ By the end of this tutorial, you will have built a basic Windows networking envi
 
     Once it's been shut down, open it back up and log back in:
     - You'll notice that you can expand the entire VM window now and the mouse should move much smoother:
+<p align="center">
 <br/>
 <img src="https://i.imgur.com/gUH1RW1.jpeg" height="80%" width="80%" alt="AD"/>
 <br/>
@@ -304,6 +321,7 @@ By the end of this tutorial, you will have built a basic Windows networking envi
     - Network & Internet 
     - Ethernet 
     - Change adapter options:
+<p align="center">
 <br/>
 <img src="https://i.imgur.com/UAGeDP9.jpeg" height="80%" width="80%" alt="AD"/>
 <br/>
@@ -312,6 +330,7 @@ By the end of this tutorial, you will have built a basic Windows networking envi
 ---
 
     We've established that there are going to need to be two networks, one is like your home internet that you use and the other is the internal one so we have to establish which one is which:
+<p align="center">
 <br/>
 <img src="https://i.imgur.com/pUL77WC.jpeg" height="80%" width="80%" alt="AD"/>
 <br/>
@@ -320,6 +339,7 @@ By the end of this tutorial, you will have built a basic Windows networking envi
 ---
 
     Right-click the first one and click status, this is like the typical IPv4 address so looks like it's my home IP:
+<p align="center">
 <br/>
 <img src="https://i.imgur.com/dAllflq.jpeg" height="80%" width="80%" alt="AD"/>
 <br/>
@@ -328,6 +348,7 @@ By the end of this tutorial, you will have built a basic Windows networking envi
 ---
 
     We're gonna rename it _INTERNET_ and when we do status > details for the second Ethernet we see that it has an APIPA address. We will also rename it X_Internal_X:
+<p align="center">
 <br/>
 <img src="https://i.imgur.com/9eeP1kP.jpeg" height="80%" width="80%" alt="AD"/>
 <br/>
@@ -350,6 +371,7 @@ By the end of this tutorial, you will have built a basic Windows networking envi
         - IP address: 172.16.0.1
         - Subnet mask: 255.255.255.0	
         - Preferred DNS Server: 127.0.0.1:
+<p align="center">
 <br/>
 <img src="https://i.imgur.com/3MDaQSN.jpeg" height="80%" width="80%" alt="AD"/>
 <br/>
@@ -359,6 +381,7 @@ By the end of this tutorial, you will have built a basic Windows networking envi
 
     Next, set up some active directory domain services and create a domain:
     - In AD click Add roles and features, 'Next', 'Next', and you'll be met with the Server Selection pane where you can pick the server where you want to install ADDS. Select the only server there is, and click 'Next':
+<p align="center">
 <br/>
 <img src="https://i.imgur.com/vkCkaVl.jpeg" height="80%" width="80%" alt="AD"/>
 <br/>
@@ -370,6 +393,7 @@ By the end of this tutorial, you will have built a basic Windows networking envi
 ---
 
     Select 'Active Directory Domain Services' and then 'Add Features', it will then be checked and then we'll click 'Next':
+<p align="center">
 <br/>
 <img src="https://i.imgur.com/kPELUGg.jpeg" height="80%" width="80%" alt="AD"/>
 <br/>
@@ -378,6 +402,7 @@ By the end of this tutorial, you will have built a basic Windows networking envi
 ---
 
     Click 'Next' all the way until the Confirmation pane and then you'll need to click 'Install'. It will take a while:
+<p align="center">
 <br/>
 <img src="https://i.imgur.com/mhUrnTt.jpeg" height="80%" width="80%" alt="AD"/>
 <br/>
@@ -388,6 +413,7 @@ By the end of this tutorial, you will have built a basic Windows networking envi
     Now that role has been installed we can close the Add Roles And Features Wizard window. You can see up in the top right corner there is now a little flag with a yellow triangle and an exclamation point inside it:
     - This is letting us know that we need to do our post-deployment configuration.
     - Hover your mouse over that icon and click Promote this server to a domain controller:
+<p align="center">
 <br/>
 <img src="https://i.imgur.com/xATrXy8.jpeg" height="80%" width="80%" alt="AD"/>
 <br/>
@@ -396,6 +422,7 @@ By the end of this tutorial, you will have built a basic Windows networking envi
 ---
 
     This will open up a Deployment Configuration window, and we'll need to select 'Add a new forest' and create a Root domain name: mydomain.com:
+<p align="center">
 <br/>
 <img src="https://i.imgur.com/IOfS2Xr.jpeg" height="80%" width="80%" alt="AD"/>
 <br/>
@@ -404,6 +431,7 @@ By the end of this tutorial, you will have built a basic Windows networking envi
 ---
 
     You'll also have to put in a password for the Domain Controller Options pane but we don't use it all. Just use Password1. After that, hit 'Next' all the way until the 'Install' button lights up. Then click that:
+<p align="center">
 <br/>
 <img src="https://i.imgur.com/RQGQ2fu.jpeg" height="80%" width="80%" alt="AD"/>
 <br/>
@@ -412,6 +440,7 @@ By the end of this tutorial, you will have built a basic Windows networking envi
 ---
 
     When it's finished it will automatically reboot the VM:
+<p align="center">
 <br/>
 <img src="https://i.imgur.com/3oKgXuk.jpeg" height="80%" width="80%" alt="AD"/>
 <br/>
@@ -420,6 +449,7 @@ By the end of this tutorial, you will have built a basic Windows networking envi
 ---
 
     Upon logging in you'll notice we have a MYDOMAIN\Administrator profile name now, so that's cool:
+<p align="center">
 <br/>
 <img src="https://i.imgur.com/09vDkc5.jpeg" height="80%" width="80%" alt="AD"/>
 <br/>
@@ -428,9 +458,10 @@ By the end of this tutorial, you will have built a basic Windows networking envi
 ---
 
     We're going to create our own dedicated admin account instead of using the built-in administrator account. So we do that by clicking:
-- Start
-- Windows Administrative Tools
-- Active Directory Users and Computers:
+    - Start
+    - Windows Administrative Tools
+    - Active Directory Users and Computers:
+<p align="center">
 <br/>
 <img src="https://i.imgur.com/N0bwmfd.jpeg" height="80%" width="80%" alt="AD"/>
 <br/>
@@ -439,6 +470,7 @@ By the end of this tutorial, you will have built a basic Windows networking envi
 ---
 
     You can see we have our newly created domain mydomain.com. We can now create an Organizational Unit:
+<p align="center">
 <br/>
 <img src="https://i.imgur.com/SMxC3sh.jpeg" height="80%" width="80%" alt="AD"/>
 <br/>
@@ -447,6 +479,7 @@ By the end of this tutorial, you will have built a basic Windows networking envi
 ---
 
     We will name it _ADMINS:
+<p align="center">    
 <br/>
 <img src="https://i.imgur.com/pKRPb0L.jpeg" height="80%" width="80%" alt="AD"/>
 <br/>
@@ -455,6 +488,7 @@ By the end of this tutorial, you will have built a basic Windows networking envi
 ---
 
     Now we can create a new user:
+<p align="center">
 <br/>
 <img src="https://i.imgur.com/w0xQ9LA.jpeg" height="80%" width="80%" alt="AD"/>
 <br/>
@@ -463,6 +497,7 @@ By the end of this tutorial, you will have built a basic Windows networking envi
 ---
 
     Obviously use your own name but I tried to model it after what I believe a typical company would structure their employees' usernames. Also, we're using Password1 for password if you haven't caught on by now:
+<p align="center">
 <br/>
 <img src="https://i.imgur.com/6XsOp6b.jpeg" height="80%" width="80%" alt="AD"/>
 <br/>
@@ -483,6 +518,7 @@ By the end of this tutorial, you will have built a basic Windows networking envi
     - Under Enter the object names to select type:
         - Domain admins
     - Click Check Names and you should get Domain Admins. We see it resolves so click OK:
+<p align="center">
 <br/>
 <img src="https://i.imgur.com/1S0Ak5a.jpeg" height="80%" width="80%" alt="AD"/>
 <br/>
@@ -494,6 +530,7 @@ By the end of this tutorial, you will have built a basic Windows networking envi
 ---
 
     We now have our own domain account and we're going to log out so we can use it:
+<p align="center">
 <br/>
 <img src="https://i.imgur.com/Tl3SGhn.jpeg" height="80%" width="80%" alt="AD"/>
 <br/>
@@ -502,6 +539,7 @@ By the end of this tutorial, you will have built a basic Windows networking envi
 ---
 
     Instead of logging into the Administrator account, click Other user and use the domain admin account you created:
+<p align="center">
 <br/>
 <img src="https://i.imgur.com/kQ1PeZP.jpeg" height="80%" width="80%" alt="AD"/>
 <br/>
@@ -520,6 +558,7 @@ By the end of this tutorial, you will have built a basic Windows networking envi
         - Next
         - Next
         - Install, and this will...you guessed it take a while:
+<p align="center">
 <br/>
 <img src="https://i.imgur.com/5WwrwjR.jpeg" height="80%" width="80%" alt="AD"/>
 <br/>
@@ -549,8 +588,9 @@ By the end of this tutorial, you will have built a basic Windows networking envi
 ---
 
     Once it's done installing click close and navigate to:
-- Tools 
-- Routing and Remote Access:
+    - Tools 
+    - Routing and Remote Access:
+<p align="center">
 <br/>
 <img src="https://i.imgur.com/OXpb6PP.jpeg" height="80%" width="80%" alt="AD"/>
 <br/>
@@ -559,6 +599,7 @@ By the end of this tutorial, you will have built a basic Windows networking envi
 ---
 
     Right-click on the Domain Controller and select Configure and Enable Routing and Remote Access:
+<p align="center">
 <br/>
 <img src="https://i.imgur.com/JlEpFFD.jpeg" height="80%" width="80%" alt="AD"/>
 <br/>
@@ -567,6 +608,7 @@ By the end of this tutorial, you will have built a basic Windows networking envi
 ---
 
     Hit Next, then select NAT, and then Next:
+<p align="center">
 <br/>
 <img src="https://i.imgur.com/iP2P8lR.jpeg" height="80%" width="80%" alt="AD"/>
 <br/>
@@ -575,6 +617,7 @@ By the end of this tutorial, you will have built a basic Windows networking envi
 ---
 
     Select the _INTERNET_ interface, then Next, and then Finish. It may take a second:
+<p align="center">
 <br/>
 <img src="https://i.imgur.com/XDgkgEp.jpeg" height="80%" width="80%" alt="AD"/>
 <br/>
@@ -584,6 +627,7 @@ By the end of this tutorial, you will have built a basic Windows networking envi
 
     Now we see green, and that everything is totally configured!
     - Now our Windows 10 clients will be able to get to the internet, assuming we set up DHCP for them which is the next step:
+<p align="center">
 <br/>
 <img src="https://i.imgur.com/UZ9DFHH.jpeg" height="80%" width="80%" alt="AD"/>
 <br/>
@@ -599,6 +643,7 @@ By the end of this tutorial, you will have built a basic Windows networking envi
     - Next
     - Next 
     - Install & Close:
+<p align="center">
 <br/>
 <img src="https://i.imgur.com/ZYeFRNI
 
