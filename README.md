@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://i.imgur.com/fNfawjx.jpeg" height="40%" width="40%" alt="AD"/>
+<img src="https://i.imgur.com/cUPgsW9.png" height="60%" width="60%" alt="AD"/>
 </p>
 
 # How to Setup a Basic Home Lab Running Active Directory
