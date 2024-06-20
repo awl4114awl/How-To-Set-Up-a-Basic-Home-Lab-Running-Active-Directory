@@ -644,9 +644,7 @@ By the end of this tutorial, you will have built a basic Windows networking envi
     - Install & Close:
 <p align="center">
 <br/>
-<img src="https://i.imgur.com/ZYeFRNI
-
-.jpeg" height="80%" width="80%" alt="AD"/>
+<img src="https://i.imgur.com/ZYeFRNI.jpeg" height="80%" width="80%" alt="AD"/>
 <br/>
 <br/>
 <img src="https://i.imgur.com/2jeXDNS.jpeg" height="80%" width="80%" alt="AD"/>
