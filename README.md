@@ -2,7 +2,7 @@
 <img src="https://i.imgur.com/cUPgsW9.png" height="60%" width="60%" alt="AD"/>
 </p>
 
-# How to Setup a Basic Home Lab Running Active Directory
+# How to Set Up a Basic Home Lab Running Active Directory
 
 Welcome to the "How to Setup a Basic Home Lab Running Active Directory" repository. This guide provides step-by-step instructions for creating a functional home lab environment that includes Active Directory (AD). This setup is perfect for those looking to enhance their IT skills, prepare for certifications, or create a testing environment.
 
